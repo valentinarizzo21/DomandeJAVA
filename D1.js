@@ -81,13 +81,13 @@ function sottraiNumero(){
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-const name1= 'john';
-const name2= 'Jhon';
-
 function verificaNome() {
+  const name1= 'john';
+  const name2= 'Jhon';
   if (!(name1 === name2)) {
     console.log("I nomi sono diversi!");
-  } else if (name1 === name2) {
+  } 
+  else if (name1 === name2) {
     console.log("I nomi sono uguali!");
   }
 }
